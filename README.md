@@ -1,18 +1,31 @@
-Summary
-=======
+# Movie Recommendation System
 
-This dataset contains 100836 ratings and 3683 tag applications across 9742 movies. 610 users created these data between March 29 1996, and September 24 2018. This dataset was generated on September 26, 2018.
+This project implements a Movie Recommendation System using collaborative filtering. It utilizes the MovieLens dataset to provide movie recommendations based on user ratings.
 
-Users were selected at random for inclusion. All selected users had rated at least 20 movies. No demographic information is included. An ID represents each user, and no other information is provided.
+## Features
+- Provides movie recommendations for users.
+- Uses collaborative filtering techniques to predict ratings.
+- Dataset: MovieLens dataset containing 100,000+ ratings and tags for over 9,000 movies.
 
-The data are in the files `links.csv`, `movies.csv`, `ratings.csv` and `tags.csv`.
+## Technologies Used
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Scikit-learn
 
-This and other GroupLens data sets are publicly available for download at <http://grouplens.org/datasets/>.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aditya-kamatt/Movie-Recommendation-System.git
+2. Install the necessary dependencies:
+```bash
+pip install -r requirements.txt
+```
 
+## Usage
+Run the `MRS.ipynb` notebook to train and test the recommendation system.
 
-Citation
-========
-
+## Citation
 To acknowledge use of the dataset in publications, please cite the following paper:
 
 > F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4: 19:1–19:19. <https://doi.org/10.1145/2827872>
